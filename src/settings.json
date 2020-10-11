@@ -1,0 +1,5 @@
+{
+  "length": [20, 30], // password length [from, to] or just length as number
+  "symbols": "all", // ["numbers", "letters", "lettersCaps", "special"] or just "all"
+  "number": 10 // How many passwords should be created
+}

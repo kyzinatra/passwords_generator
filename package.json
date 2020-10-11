@@ -1,0 +1,22 @@
+{
+  "name": "passwords_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "passwords",
+    "generator"
+  ],
+  "author": "kyzinatra(danilsolom@mail.ru)",
+  "license": "ISC",
+  "dependencies": {
+    "jsonminify": "^0.4.1"
+  },
+  "devDependencies": {
+    "@types/jsonminify": "^0.4.1",
+    "@types/node": "^14.11.8"
+  }
+}
