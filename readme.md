@@ -17,7 +17,7 @@ To start program:
 To clone repository:
 
 ```sh
-git clone (url)
+git clone https://github.com/kyzinatra/passwords_generator.git
 cd img_parser
 ```
 
