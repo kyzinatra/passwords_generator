@@ -1,5 +1,10 @@
 {
-  "length": [50, 70], // password length [from, to] or just length as number
-  "symbols": "all", // "all" or "lettersCaps" or "lettersLower" or "numbers"
-  "number": 10 // How many passwords should be created
+  "length": [20, 30], //? Password length [from, to] or just length as number
+  "symbols": [
+    "special",
+    "lettersCaps",
+    "lettersLower",
+    "numbers"
+  ], //? Сombine these strings to get the desired result ["special", "lettersCaps", "lettersLower", "numbers"]
+  "number": 1000 //? How many passwords should be created
 }

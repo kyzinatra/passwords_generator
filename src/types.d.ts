@@ -1,5 +1,5 @@
 export interface ISettings {
 	length: number[] | number;
-	symbols: "all" | "lettersCaps" | "lettersLower" | "numbers";
+	symbols: "special" | "lettersCaps" | "lettersLower" | "numbers";
 	number: number;
 }

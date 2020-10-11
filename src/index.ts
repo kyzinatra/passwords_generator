@@ -1,4 +1,4 @@
-import { Password } from "./pass";
+import { Password } from "./Classes/Pass";
 import { readFile } from "fs";
 import minify from "jsonminify";
 
@@ -10,9 +10,8 @@ readFile("src/settings.json", "utf-8", (err, res) => {
 	const pass = new Password(settings.length, settings.symbols);
 	for (let i = 0; i < settings.number; i++) {
 		console.log(`
-    Password number ${i}:
+    Password number ${i + 1}:
       ${pass.generate()}
-`);
+		`);
 	}
 });
-// console.log(Password.generate());
